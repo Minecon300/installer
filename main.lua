@@ -40,7 +40,7 @@ function keyPressed(event_name, player_uuid, ascii)
     local c = string.char(ascii)
     if c=='\n' then
         print(userstr)
-        CheckandInstall(userstr)
+        --CheckandInstall(userstr)
         userstr = ""
     else
         userstr=userstr..c
